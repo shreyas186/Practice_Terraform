@@ -1,3 +1,3 @@
 output "rg_name" {
-  value = var.rg_name
+  value = var.resource_group_name
 }
