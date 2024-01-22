@@ -1,7 +1,7 @@
 resource "azurerm_resource_group" "multi_vm_implementation" {
-  name = var.rg_name
-  location = var.rg_location
+  name = var.resource_group_name
+  location = var.location
   tags = {
-      env = var.rg_name   
+      env = var.resource_group_name   
   }
 }
